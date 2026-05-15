@@ -1,0 +1,39 @@
+#simulacao h2 {
+  font-weight: 600;
+}
+
+#simulationForm .form-label {
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  background: #1f1b1b;
+  color: #ffffff;
+  border: 1px solid #4b5563;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background: #1f1b1b;
+  color: #ffffff;
+  border-color: var(--primary-orange);
+  box-shadow: 0 0 0 0.2rem rgba(242, 99, 34, 0.25);
+}
+
+#simulationForm .btn-primary {
+  background: var(--primary-orange);
+  border-color: var(--primary-orange);
+}
+
+#simulationForm .btn-primary:hover {
+  background: var(--primary-orange-hover);
+  border-color: var(--primary-orange-hover);
+}
+
+body.light-mode .form-control,
+body.light-mode .form-select {
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #d1d5db;
+}

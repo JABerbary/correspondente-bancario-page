@@ -1,0 +1,60 @@
+<section id="simulacao" class="section-padding">
+  <div class="container">
+    <h2 class="text-center mb-5">Simulação</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card custom-card">
+          <div class="card-body p-4">
+            <form id="simulationForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Nome</label>
+                  <input type="text" class="form-control" name="nome" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Telefone</label>
+                  <input type="text" class="form-control" name="telefone" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Linha de crédito</label>
+                  <select class="form-select" name="linhaCredito" required>
+                    <option value="">Selecione</option>
+                    <option>Imóvel novo</option>
+                    <option>Imóvel usado</option>
+                    <option>Construção</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Renda mensal</label>
+                  <input type="number" class="form-control" name="renda" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Valor do imóvel</label>
+                  <input type="number" class="form-control" name="valorImovel" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Valor de entrada</label>
+                  <input type="number" class="form-control" name="valorEntrada" required />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 mt-4">
+                Enviar simulação
+              </button>
+            </form>
+
+            <div id="simulationResult" class="alert alert-success mt-4 d-none">
+              Simulação registrada com sucesso.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

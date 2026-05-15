@@ -1,0 +1,24 @@
+#faq h2 {
+  font-weight: 600;
+}
+
+.accordion-button {
+  background: var(--card-dark);
+  color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #dbeafe;
+  color: #0d2b5c;
+}
+
+.accordion-body {
+  background: #1f1b1b;
+  color: #ffffff;
+}
+
+body.light-mode .accordion-button,
+body.light-mode .accordion-body {
+  background: #ffffff;
+  color: #111827;
+}

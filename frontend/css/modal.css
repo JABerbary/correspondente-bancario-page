@@ -1,0 +1,51 @@
+/* padrão dark */
+.custom-modal {
+  background: #1f1b1b;
+  color: #ffffff;
+  border: 1px solid var(--primary-orange);
+  border-radius: 14px;
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
+  border-color: rgba(242, 99, 34, 0.35);
+}
+
+.custom-modal .form-control {
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #4b5563;
+}
+
+.custom-modal .form-control:focus {
+  background: #111111;
+  color: #ffffff;
+  border-color: var(--primary-orange);
+  box-shadow: 0 0 0 0.2rem rgba(242, 99, 34, 0.25);
+}
+
+.custom-modal .btn-close {
+  filter: invert(1);
+}
+
+/* modo claro */
+body.light-mode .custom-modal {
+  background: #ffffff;
+  color: #1f2937;
+  border: 1px solid #e5e7eb;
+}
+
+body.light-mode .custom-modal .modal-header,
+body.light-mode .custom-modal .modal-footer {
+  border-color: #dee2e6;
+}
+
+body.light-mode .custom-modal .form-control {
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #ced4da;
+}
+
+body.light-mode .custom-modal .btn-close {
+  filter: none;
+}

@@ -1,0 +1,26 @@
+#linhas-credito h2 {
+  font-weight: 600;
+}
+
+#linhas-credito .card-body {
+  padding: 28px;
+}
+
+#linhas-credito h5 {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+#linhas-credito p {
+  margin-bottom: 18px;
+}
+
+#linhas-credito .btn-outline-primary {
+  color: var(--primary-orange);
+  border-color: var(--primary-orange);
+}
+
+#linhas-credito .btn-outline-primary:hover {
+  background: var(--primary-orange);
+  color: #ffffff;
+}

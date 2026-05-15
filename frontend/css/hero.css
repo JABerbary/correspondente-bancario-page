@@ -1,0 +1,57 @@
+.hero-section {
+  background:
+    linear-gradient(135deg, rgba(31, 27, 27, 0.96), rgba(17, 17, 17, 0.92));
+  background-size: cover;
+  background-position: center;
+  padding-top: 130px;
+}
+
+.hero-section h1 {
+  color: #ffffff;
+}
+
+.hero-section p {
+  color: #e5e7eb;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(242, 99, 34, 0.35);
+  border-radius: 24px;
+  padding: 60px 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.hero-card h4 {
+  color: #ffffff;
+}
+
+.hero-card p {
+  color: #d1d5db;
+}
+
+body.light-mode .hero-section {
+  background: linear-gradient(135deg, #ffffff, #f4f4f4);
+}
+
+body.light-mode .hero-section h1,
+body.light-mode .hero-section p,
+body.light-mode .hero-card h4,
+body.light-mode .hero-card p {
+  color: #1f2937;
+}
+
+body.light-mode .hero-card {
+  background: #ffffff;
+  color: #1f2937;
+}
+body.light-mode .hero-section .btn-outline-light {
+  color: #1f2937;
+  border-color: #1f2937;
+}
+
+body.light-mode .hero-section .btn-outline-light:hover {
+  background: #1f2937;
+  color: #ffffff;
+}

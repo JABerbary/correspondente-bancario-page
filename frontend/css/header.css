@@ -1,0 +1,72 @@
+.custom-navbar {
+  background: rgba(31, 27, 27, 0.95);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.custom-navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.site-logo {
+  width: auto !important;
+  height: 48px !important;
+  max-width: 160px !important;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.navbar-scrolled .site-logo {
+  height: 34px !important;
+}
+
+.navbar-scrolled {
+  padding: 6px 0;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--primary-orange) !important;
+}
+
+.theme-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.theme-toggle-wrapper .form-check-input {
+  cursor: pointer;
+  border-color: var(--primary-orange);
+}
+
+.theme-toggle-wrapper .form-check-input:checked {
+  background-color: var(--primary-orange);
+  border-color: var(--primary-orange);
+}
+
+.theme-toggle-wrapper i {
+  color: var(--primary-orange);
+  font-size: 18px;
+}
+
+body.light-mode .custom-navbar {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+body.light-mode .nav-link {
+  color: #1f2937 !important;
+}

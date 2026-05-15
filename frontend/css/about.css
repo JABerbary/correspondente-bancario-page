@@ -1,0 +1,16 @@
+#quem-somos h2 {
+  font-weight: 600;
+}
+
+#quem-somos .card-body {
+  padding: 26px;
+}
+
+#quem-somos h5 {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+#quem-somos p {
+  margin-bottom: 0;
+}

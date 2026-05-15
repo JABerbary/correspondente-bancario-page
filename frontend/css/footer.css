@@ -1,0 +1,119 @@
+.footer-card-section {
+  background: #111111;
+  padding: 40px 0;
+  border-top: 3px solid var(--primary-orange);
+  transition: all 0.3s ease;
+}
+
+.footer-business-card {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #1f1b1b;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 2px 1.4fr;
+  gap: 36px;
+  align-items: center;
+  padding: 40px 48px 28px;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+}
+
+.footer-brand-logo {
+  width: 260px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.footer-divider {
+  width: 2px;
+  height: 260px;
+  background: var(--primary-orange);
+}
+
+.footer-right h2 {
+  color: var(--primary-orange);
+  font-family: Georgia, serif;
+  font-size: 42px;
+  margin-bottom: 14px;
+}
+
+.footer-right h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.footer-right p {
+  font-size: 19px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+}
+
+.footer-right i {
+  color: var(--primary-orange);
+  font-size: 24px;
+}
+
+.caixa-badge {
+  display: inline-block;
+  background: #1f9ad6;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 8px 18px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.footer-address {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 26px;
+  color: #ffffff;
+}
+
+body.light-mode .footer-card-section {
+  background: #ffffff;
+}
+
+body.light-mode .footer-business-card {
+  background: #ffffff;
+  color: #1f1b1b;
+}
+
+body.light-mode .footer-right h4,
+body.light-mode .footer-right p,
+body.light-mode .footer-address {
+  color: #1f1b1b;
+}
+
+@media (max-width: 768px) {
+  .footer-business-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .footer-divider {
+    width: 100%;
+    height: 2px;
+  }
+
+  .footer-right p {
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .footer-right h2 {
+    font-size: 32px;
+  }
+
+  .footer-address {
+    font-size: 17px;
+  }
+}
