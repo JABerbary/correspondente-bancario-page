@@ -68,11 +68,46 @@ O projeto será aberto automaticamente no navegador.
 ## Estrutura do projeto
 
 ```txt
-frontend/
+FRONTEND/
+├── assets/
+│   └── img/
+│       ├── logo-inferior-white.jpeg
+│       ├── logo-inferior.jpeg
+│       └── logo-superior.jpeg
+│
+├── components/
+│   ├── about.html
+│   ├── credit-lines.html
+│   ├── faq.html
+│   ├── footer.html
+│   ├── header.html
+│   ├── hero.html
+│   ├── modals.html
+│   └── simulation.html
+│
 ├── css/
+│   ├── about.css
+│   ├── base.css
+│   ├── consulta.css
+│   ├── credit-lines.css
+│   ├── faq.css
+│   ├── footer.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── modal.css
+│   ├── simulation.css
+│   └── style.css
+│
 ├── js/
-├── index.html
-├── header.html
-├── footer.html
-└── ...
+│   ├── consulta.js
+│   ├── faq-data.js
+│   ├── faq.js
+│   ├── landing.js
+│   ├── login.js
+│   ├── main.js
+│   ├── simulation.js
+│   └── theme.js
+│
+├── consulta.html
+└── index.html
 ```
